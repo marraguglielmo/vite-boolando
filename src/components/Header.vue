@@ -16,7 +16,6 @@
             <!-- /TOPBAR -->
             <!-- LOGO -->
             <span class="logo ">
-                <!-- <p>logo</p> -->
                 <img src="../../boolean-logo.png" alt="logo">
             </span>
             <!-- /LOGO -->
@@ -73,6 +72,8 @@ header{
         }
     }
     .menu{
+        width: 200px;
+        justify-content: flex-end;
         list-style: none;
         li{
             a{
