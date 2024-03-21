@@ -38,52 +38,52 @@
 @use '../assets/scss/partials/variables' as *;
 @use '../assets/scss/partials/utils' as *;
 
-header{
-    background-color: $bg-header;
-    color: white;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    .container{
-        line-height: 30px;
-        padding: 15px 0 10px 0;
-        justify-content: space-between;
-    }
-    .categories{
-        list-style: none;
-        font-weight: 500;
-        width: 200px;
-        justify-content: space-between;
-        li{
-            a{
-                text-decoration: none;
-                color: white;
-                &:hover{
-                    color: black;
+    header{
+        background-color: $bg-header;
+        color: white;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        .container{
+            line-height: 30px;
+            padding: 15px 0 10px 0;
+            justify-content: space-between;
+        }
+        .categories{
+            list-style: none;
+            font-weight: 500;
+            width: 200px;
+            justify-content: space-between;
+            li{
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+        }
+        .logo{
+            img{
+                width: 150px;
+            }
+        }
+        .menu{
+            width: 200px;
+            justify-content: flex-end;
+            list-style: none;
+            li{
+                a{
+                    color: white;
+                    margin-left: 10px;
+                    &:hover{
+                        color: black;
+                    }
                 }
             }
         }
     }
-    .logo{
-        img{
-            width: 150px;
-        }
-    }
-    .menu{
-        width: 200px;
-        justify-content: flex-end;
-        list-style: none;
-        li{
-            a{
-                color: white;
-                margin-left: 10px;
-                &:hover{
-                    color: black;
-                }
-            }
-        }
-    }
-}
 </style>

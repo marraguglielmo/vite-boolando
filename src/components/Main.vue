@@ -3,12 +3,19 @@
 </script>
 
 <template>
-    <div>
+    <main>
         <h1>Main</h1>
-    </div>
+    </main>
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables' as *;
+@use '../assets/scss/partials/utils' as *;
+
+    main{
+        min-height: 390px;
+    }
+
     h1{
         font-size: 5em;
         text-align: center;

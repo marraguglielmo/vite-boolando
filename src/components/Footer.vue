@@ -27,10 +27,42 @@
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
+@use '../assets/scss/partials/utils' as *;
 
-footer{
-    background: $bg-footer;
-    color: white;
-    padding: 20px 0;
-}
+    footer{
+        background: $bg-footer;
+        color: white;
+        padding: 20px 0;
+        p{
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        i{
+            font-size: 1.5rem;
+            border-radius: 5px;
+            margin-left: 7px;
+        }
+        .container{
+            justify-content: space-between;
+            span:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+            div.d-flex{
+                justify-content: space-between;
+                width: 350px;
+                font-size: .7rem;
+            }
+            .social{
+                text-align: center;
+                a{
+                    color: white;
+                }
+                p{
+                    font-size: .9rem;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
 </style>
