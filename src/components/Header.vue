@@ -61,12 +61,27 @@ header{
             a{
                 text-decoration: none;
                 color: white;
+                &:hover{
+                    color: black;
+                }
             }
         }
     }
     .logo{
         img{
             width: 150px;
+        }
+    }
+    .menu{
+        list-style: none;
+        li{
+            a{
+                color: white;
+                margin-left: 10px;
+                &:hover{
+                    color: black;
+                }
+            }
         }
     }
 }
