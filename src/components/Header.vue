@@ -37,6 +37,7 @@
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
+@use '../assets/scss/partials/utils' as *;
 
 header{
     background-color: $bg-header;
@@ -46,5 +47,27 @@ header{
     top: 0;
     left: 0;
     z-index: 2;
+    .container{
+        line-height: 30px;
+        padding: 15px 0 10px 0;
+        justify-content: space-between;
+    }
+    .categories{
+        list-style: none;
+        font-weight: 500;
+        width: 200px;
+        justify-content: space-between;
+        li{
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .logo{
+        img{
+            width: 150px;
+        }
+    }
 }
 </style>
