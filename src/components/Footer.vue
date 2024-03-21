@@ -34,7 +34,7 @@
         color: white;
         padding: 20px 0;
         p{
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             font-weight: 600;
         }
         i{
@@ -44,10 +44,14 @@
         }
         .container{
             justify-content: space-between;
-            span:hover{
+            span{
+                font-size: .8rem;
+                &:hover{
                 cursor: pointer;
                 text-decoration: underline;
+                }
             }
+            
             div.d-flex{
                 justify-content: space-between;
                 width: 350px;
