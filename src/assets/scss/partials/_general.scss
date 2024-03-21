@@ -1,7 +1,17 @@
+// importo le variabili custom properties css
 @use './variables' as *;
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: $bg-header;
     font-family: $font;
+}
+
+img{
+    max-width: 100%;
 }

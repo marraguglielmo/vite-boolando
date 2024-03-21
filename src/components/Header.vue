@@ -16,8 +16,8 @@
             <!-- /TOPBAR -->
             <!-- LOGO -->
             <span class="logo ">
-                <p>logo</p>
-                <!-- <img src="img/boolean-logo.png" alt="logo"> -->
+                <!-- <p>logo</p> -->
+                <img src="../../boolean-logo.png" alt="logo">
             </span>
             <!-- /LOGO -->
             <!-- MENU -->
@@ -36,5 +36,15 @@
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables' as *;
 
+header{
+    background-color: $bg-header;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
 </style>

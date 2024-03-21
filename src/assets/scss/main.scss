@@ -1,3 +1,4 @@
+// importo il css generale
 @use './partials/general';
-
-@import '@fontsource/poppins/index.css'
+// importo il font Poppins da node_modules
+@import '@fontsource/poppins/index.css';
