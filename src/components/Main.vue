@@ -18,8 +18,8 @@ import products from '../assets/data/products'
         <ProductCard 
             v-for="product in products.products"
             :key="product.id"
-            :cardImg="product.frontImage"
-            :cardImgBack="`../../assets/img/${product.backImage}`"
+            :cardImg="`src/assets/img/${product.frontImage}`"
+            :cardImgBack="`src/assets/img/${product.backImage}`"
             :cardBrand="product.brand"
             :cardName="product.name"
             :cardPrice="product.price"
