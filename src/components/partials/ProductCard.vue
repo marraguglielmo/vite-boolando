@@ -1,12 +1,21 @@
 <script>
-    export default{}
+    export default{
+        props:{
+            cardImg: String,
+            cardBrand: String,
+            cardImgBack: String,
+            cardName: String,
+            cardPrice: String
+
+        }
+    }
 </script>
 
 <template>
         <div class="card">
             <div class="card-img">
-                <img src="../../assets/img/1.webp" alt="card1"> 
-                <img class="product-hover" src="../../assets/img/1b.webp" alt="1hover">
+                <img :src="cardImg" alt="card1"> 
+                <img class="product-hover" :src="cardImgBack" alt="1hover">
                 <!-- heart -->
                 <div class="favorite">
                     <i class="fa-solid fa-heart"></i>
@@ -17,9 +26,9 @@
                 <div class="sostenibility">sostenibilità</div>
             </div>
             <div class="card-text">
-                <h3>Levi's</h3>
-                <h2>RELAXED FIT TEE UNISEX</h2>
-                <span class="new-price">14.99 €</span>
+                <h3>{{cardBrand}}</h3>
+                <h2>{{cardName}}</h2>
+                <span class="new-price">{{cardPrice}} €</span>
                 <span class="old-price">29.99 €</span>
             </div>
         </div>
