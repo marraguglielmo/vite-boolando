@@ -10,6 +10,11 @@ import ProductCard from './partials/ProductCard.vue';
 <template>
     <div class="container d-flex">
         <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
     </div>
 </template>
 
