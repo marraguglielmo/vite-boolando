@@ -1,20 +1,22 @@
 <script>
-    export default{}
+import ProductCard from './partials/ProductCard.vue';
+    export default{
+        components:{
+            ProductCard
+        }
+    }
 </script>
 
 <template>
-    <main>
-        <h1>Main</h1>
-    </main>
+    <div class="container d-flex">
+        <ProductCard />
+    </div>
 </template>
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 @use '../assets/scss/partials/utils' as *;
 
-    main{
-        min-height: 390px;
-    }
 
     h1{
         font-size: 5em;
